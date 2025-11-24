@@ -1,0 +1,11 @@
+[project]
+name = "title-db-georgia"
+version = "0.1.0"
+description = "County data extraction using U.S. Census Geocoder API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+]
